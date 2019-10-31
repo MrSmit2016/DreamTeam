@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media(min-width:320px){
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.footer__section1{
+    background-color: #222222;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   width: 320px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.footer__address--descr{
+    color:#fff;
+margin-bottom: 10px;
+}
+.footer__contacts--descr{
+    color:#fff;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.footer__button{
+    width: 192px;
+    height: 42px;
+    background-color: #e9ac38;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border:none;
+}
+.footer__images--icons1{
+    background-color: #6398e0;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.footer__images--icons2{
+    background-color: #3b4e70;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.footer__images--icons3{
+    background-color: #9f2431;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.footer__images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__section2{
+    background-color: #151515;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.footer__section2--descr{
+  color: #565657;
+  text-align: left;
+}
+
+}
+@media(min-width:768px){
+    .footer__section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 768px;
+    }
+    .footer__address--descr{
+        margin-left: 10px;
+    }
+    .footer__contacts--descr{
+margin-bottom: 12px;
+    }
+    .footer__section2--descr{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+ 
+        
+    }
+    .footer__section2{
+        width: 768px;
+    }
+}
