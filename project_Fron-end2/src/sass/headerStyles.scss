@@ -1,5 +1,5 @@
 header {
-  background: url(../images/header-bg.png) no-repeat fixed center;
+  background: url(../images/header-bg.png) no-repeat center;
   background-size: cover;
   height: 600px;
 }
@@ -224,7 +224,7 @@ input:checked~.header__dropdown-content {
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   header {
-    background: url(../images/header-bg@2x.png) no-repeat fixed center;
+    background: url(../images/header-bg@2x.png) no-repeat center;
     background-size: cover;
   }
 }
